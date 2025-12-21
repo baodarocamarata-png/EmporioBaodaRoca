@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Empório Bão da Roça</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --marrom: #5a3e2b;
+      --bege: #f4efe9;
+      --verde: #4f6f52;
+      --dourado: #c9a24d;
+      --preto: #1e1e1e;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bege);
+      color: var(--preto);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url('https://images.unsplash.com/photo-1603052875502-df3c5f6e5d94?q=80&w=1920');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.2rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin: 20px auto 30px;
+      font-size: 1.1rem;
+      max-width: 700px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      border-radius: 40px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s ease;
+    }
+
+    .btn-whatsapp {
+      background-color: #25d366;
+      color: #fff;
+      margin: 5px;
+    }
+
+    .btn-menu {
+      background-color: transparent;
+      color: #fff;
+      border: 2px solid var(--dourado);
+      margin: 5px;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.4rem;
+      color: var(--marrom);
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border-top: 4px solid var(--verde);
+    }
+
+    .cta {
+      background-color: var(--marrom);
+      color: #fff;
+      padding: 70px 20px;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: #ccc;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: var(--dourado);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Empório Bão da Roça</h1>
+    <p>Sabores da roça, tradição artesanal e qualidade premium para quem valoriza o que é feito com carinho.</p>
+    <a href="https://wa.me/5528999745411" target="_blank" class="btn btn-whatsapp">Fale no WhatsApp</a>
+    <a href="https://www.cardaupio.com/c/fb577766-8b6e-4762-a341-ead318729333" target="_blank" class="btn btn-menu">Ver Cardápio</a>
+  </div>
+</header>
+
+<section>
+  <h2>Da Roça pra sua Mesa</h2>
+  <p>Produtos artesanais selecionados, feitos com respeito à tradição e ao sabor verdadeiro.</p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Artesanal</h3>
+      <p>Receitas tradicionais e ingredientes selecionados.</p>
+    </div>
+    <div class="card">
+      <h3>Afeto</h3>
+      <p>Sabores que despertam memórias e conexões.</p>
+    </div>
+    <div class="card">
+      <h3>Qualidade</h3>
+      <p>Padrão premium do campo para sua casa.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Faça seu pedido agora</h2>
+  <a href="https://wa.me/5528999745411" target="_blank" class="btn btn-whatsapp">Comprar no WhatsApp</a>
+  <a href="https://instagram.com/emporiobaodaroca" target="_blank" class="btn btn-menu">@emporiobaodaroca</a>
+</section>
+
+<footer>
+  <p>© 2025 Empório Bão da Roça • Instagram: <a href="https://instagram.com/emporiobaodaroca" target="_blank">@emporiobaodaroca</a></p>
+</footer>
+
+</body>
+</html>
